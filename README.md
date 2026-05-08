@@ -1,6 +1,6 @@
-# UnyaUnya Games
+# 우냐우냐 게임즈 UNYAUNYA GAMES
 
-Public legal and support pages for UnyaUnya Games.
+Public legal and support pages for 우냐우냐 게임즈 UNYAUNYA GAMES.
 
 ## Pages
 
