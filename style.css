@@ -145,3 +145,16 @@ a {
 nav {
   margin-bottom: 36px;
 }
+
+.business-info {
+  padding-top: 28px;
+  font-size: 0.85rem;
+}
+
+.business-info p {
+  margin-bottom: 4px;
+}
+
+.business-info strong {
+  color: var(--text);
+}
