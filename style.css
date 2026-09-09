@@ -115,23 +115,116 @@ section {
   max-width: 646px;
 }
 
-.steam-embed {
-  width: min(646px, 100%);
-  min-height: 190px;
-  margin-top: 20px;
-  overflow: hidden;
-  border-radius: 4px;
-  background: #282e39;
-  box-shadow: 0 12px 28px rgb(0 0 0 / 28%);
+.store-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px 20px;
+  padding: 12px;
 }
 
-.steam-embed iframe {
+.trailer {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 24px 0 20px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #000;
+}
+
+.trailer iframe {
   display: block;
   width: 100%;
-  height: 190px;
+  height: 100%;
   border: 0;
-  background: transparent;
-  color-scheme: normal;
+}
+
+
+
+.stove-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 144px;
+  min-height: 48px;
+  padding: 6px 16px;
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  background: #fff;
+  color: #ff855e;
+  text-decoration: none;
+}
+
+.stove-link:hover {
+  background: #eee;
+}
+
+.stove-link:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 5px;
+}
+
+.stove-link img {
+  display: block;
+  width: 100px;
+  height: auto;
+}
+
+.app-store-badge {
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.app-store-badge img {
+  display: block;
+  width: 144px;
+  height: auto;
+}
+
+.google-play-badge {
+  display: inline-block;
+  flex-shrink: 0;
+  margin-block: -12px;
+  border-radius: 10px;
+}
+
+.google-play-badge img {
+  display: block;
+  width: 186px;
+  height: auto;
+}
+
+.app-store-badge:focus-visible,
+.google-play-badge:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 5px;
+}
+
+.steam-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 144px;
+  min-height: 48px;
+  border: 1px solid #657382;
+  border-radius: 10px;
+  background: #171d25;
+}
+
+.steam-link:hover {
+  background: #263545;
+}
+
+.steam-link:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 5px;
+}
+
+.steam-link img {
+  display: block;
+  width: 108px;
+  height: auto;
 }
 
 .links {
