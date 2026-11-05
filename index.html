@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>UNYAUNYA GAMES</title>
-  <meta name="description" content="스토리 중심의 게임을 만드는 인디 게임 스튜디오, 우냐우냐 게임즈입니다.">
+  <meta name="description" content="우냐우냐 게임즈는 1인 인디 게임 스튜디오입니다.">
   <link rel="canonical" href="https://unyaunyagames.com/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="UNYAUNYA GAMES">
   <meta property="og:title" content="UNYAUNYA GAMES">
-  <meta property="og:description" content="스토리 중심의 게임을 만드는 인디 게임 스튜디오, 우냐우냐 게임즈입니다.">
+  <meta property="og:description" content="우냐우냐 게임즈는 1인 인디 게임 스튜디오입니다.">
   <meta property="og:url" content="https://unyaunyagames.com/">
   <meta property="og:image" content="https://unyaunyagames.com/assets/logo.png">
   <meta property="og:image:type" content="image/png">
@@ -18,22 +18,26 @@
   <meta property="og:image:alt" content="UNYAUNYA GAMES 로고">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="UNYAUNYA GAMES">
-  <meta name="twitter:description" content="스토리 중심의 게임을 만드는 인디 게임 스튜디오, 우냐우냐 게임즈입니다.">
+  <meta name="twitter:description" content="우냐우냐 게임즈는 1인 인디 게임 스튜디오입니다.">
   <meta name="twitter:image" content="https://unyaunyagames.com/assets/logo.png">
   <meta name="twitter:image:alt" content="UNYAUNYA GAMES 로고">
   <link rel="icon" type="image/png" href="assets/logo.png">
-  <link rel="stylesheet" href="style.css?v=12">
+  <link rel="stylesheet" href="style.css?v=17">
 </head>
 <body>
   <main class="page">
     <header class="hero">
-      <img class="site-logo hero-logo" src="assets/logo.png" alt="UNYAUNYA GAMES">
+      <img class="site-logo" src="assets/logo.png" alt="UNYAUNYA GAMES" width="100" height="112">
       <h1 class="sr-only">UNYAUNYA GAMES</h1>
       <p class="lead">A one-person independent game studio.</p>
+      <a class="coffee-link" href="https://buymeacoffee.com/unyaunyagames" target="_blank" rel="noopener noreferrer">
+        <img src="assets/buy-me-a-coffee.png" alt="Buy me a coffee" width="545" height="153">
+        <span class="sr-only"> (opens in a new tab)</span>
+      </a>
     </header>
 
-    <section>
-      <h2>Games</h2>
+    <section class="games" aria-labelledby="games-heading">
+      <h2 id="games-heading">Games</h2>
       <article class="game">
         <h3>Escape! House of Bonds</h3>
         <p class="game-description">A yandere pixel-art escape-room adventure.</p>
@@ -64,11 +68,19 @@
         </a>
         </div>
       </article>
+      <article class="game upcoming-game">
+        <h3>Roguelike SRPG Project</h3>
+        <p class="game-status">In development</p>
+      </article>
+      <article class="game upcoming-game">
+        <h3>Mystery Visual Novel Project</h3>
+        <p class="game-status">In development</p>
+      </article>
     </section>
 
-    <section>
+    <section class="site-links">
       <h2>Links</h2>
-      <ul class="links">
+      <ul>
         <li><a href="privacy.html">Privacy Policy</a></li>
         <li><a href="support.html">Support</a></li>
       </ul>
